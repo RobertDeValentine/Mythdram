@@ -21,7 +21,9 @@
     <sprite>sprites\spr_powerup</sprite>
     <sprite>sprites\spr_save</sprite>
   </sprites>
-  <backgrounds name="background"/>
+  <backgrounds name="background">
+    <background>background\background0</background>
+  </backgrounds>
   <paths name="paths"/>
   <scripts name="scripts">
     <script>scripts\scr_death.gml</script>
@@ -39,6 +41,7 @@
     <room>rooms\rm_initialize</room>
     <room>rooms\rm_1</room>
     <room>rooms\rm_2</room>
+    <room>rooms\rm_test</room>
   </rooms>
   <constants number="2">
     <constant name="GM_build_date">41940.8313177546</constant>
