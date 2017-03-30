@@ -33,10 +33,9 @@ vsp = 0;
 movespeed = 4;
 jumps = 0;
 
-jumpsmax = 2;
+jumpsmax = 1;
 
 jumpspeed_normal = 5.5;
-jumpspeed_powerup = 10;
 
 jumpspeed = jumpspeed_normal
 
@@ -71,11 +70,11 @@ key_down = 0;
           <argument>
             <kind>1</kind>
             <string>//Get the player's input
-key_right = keyboard_check(vk_right);
-key_left = -keyboard_check(vk_left);
+key_right = keyboard_check(ord('D'));
+key_left = -keyboard_check(ord('A'));
 key_jump = keyboard_check_pressed(vk_space);
 key_jump_held = keyboard_check(vk_space);
-key_down = keyboard_check(vk_down);
+key_down = keyboard_check(ord('S'));
 
 
 //React to inputs
