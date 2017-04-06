@@ -28,7 +28,7 @@
             <string>///Initialize Variables
 
 dir = -1;
-movespeed = 3;
+movespeed = 3.5;
 grav = 0.2;
 hsp = 0;
 vsp = 0;
@@ -84,15 +84,15 @@ y += vsp;
 //Enemy Collision
 if (place_meeting(x,y,obj_player))
 {
-    if (obj_player.y &lt; y-16)
+    /*if (obj_player.y &lt; y-16)
     {
         with (obj_player) vsp = -jumpspeed;
         instance_destroy();
-    }
-    else
-    {
+    }*/
+   // else
+    //{
         scr_death();
-    }
+    //}
 }
 </string>
           </argument>
