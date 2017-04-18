@@ -10,7 +10,7 @@
     <sprite>sprites\spr_platformH</sprite>
     <sprite>sprites\spr_portal</sprite>
     <sprite>sprites\spr_wall</sprite>
-    <sprite>sprites\spr_hammer</sprite>
+    <sprite>sprites\sprite10</sprite>
     <sprite>sprites\spr_player_idle</sprite>
     <sprite>sprites\spr_player_mask</sprite>
     <sprite>sprites\spr_player_jump</sprite>
@@ -20,6 +20,7 @@
     <sprite>sprites\spr_player_b</sprite>
     <sprite>sprites\spr_powerup</sprite>
     <sprite>sprites\spr_save</sprite>
+    <sprite>sprites\spr_hammer</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\background0</background>

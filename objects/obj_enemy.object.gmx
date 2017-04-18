@@ -84,15 +84,8 @@ y += vsp;
 //Enemy Collision
 if (place_meeting(x,y,obj_player))
 {
-    /*if (obj_player.y &lt; y-16)
-    {
-        with (obj_player) vsp = -jumpspeed;
-        instance_destroy();
-    }*/
-   // else
-    //{
-        scr_death();
-    //}
+   scr_death();
+
 }
 </string>
           </argument>
