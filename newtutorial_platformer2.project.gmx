@@ -22,6 +22,7 @@
     <sprite>sprites\spr_save</sprite>
     <sprite>sprites\spr_hammer</sprite>
     <sprite>sprites\spr_sickle</sprite>
+    <sprite>sprites\spr_spike</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\background0</background>
@@ -40,6 +41,7 @@
     <object>objects\obj_wall</object>
     <object>objects\obj_hammer</object>
     <object>objects\obj_sickle</object>
+    <object>objects\obj_spike</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_initialize</room>
