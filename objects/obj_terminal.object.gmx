@@ -180,7 +180,7 @@ if (global.checkpointR == room)
         case 4: str = "Uhhhh....";break;
         default: str = "Something went wrong!";break;
     }
-    scr_text(str,0.2,x,y);
+    scr_text(text,0.2,x,y);
     text_drawn = 1;
 }
 </string>
