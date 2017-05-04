@@ -59,10 +59,6 @@
     <room>rooms\rm_lv3</room>
     <room>rooms\rm_test</room>
   </rooms>
-  <constants number="2">
-    <constant name="GM_build_date">41940.8313177546</constant>
-    <constant name="GM_version">'100'</constant>
-  </constants>
   <help>
     <rtf>help.rtf</rtf>
   </help>
