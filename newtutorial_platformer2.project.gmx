@@ -54,6 +54,9 @@
     <room>rooms\rm_initialize</room>
     <room>rooms\rm_1</room>
     <room>rooms\rm_2</room>
+    <room>rooms\rm_lv2</room>
+    <room>rooms\rm_lv4</room>
+    <room>rooms\rm_lv3</room>
     <room>rooms\rm_test</room>
   </rooms>
   <constants number="2">
