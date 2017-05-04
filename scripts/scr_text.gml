@@ -3,8 +3,8 @@
 txt = instance_create(argument2,argument3,obj_text);
 with (txt)
 {
-    padding = 16;
-    maxlength = 200;
+    padding = 8;
+    maxlength = 300;
     text = argument0;
     spd = argument1;
     font = fnt;

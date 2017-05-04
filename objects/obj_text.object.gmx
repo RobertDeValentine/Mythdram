@@ -78,14 +78,16 @@ if (time &lt; text_length)
           <argument>
             <kind>1</kind>
             <string>///Render textbox &amp; text
-draw_set_alpha(alpha);
+draw_set_alpha(0.5);
 if (alpha &lt; 1) alpha += spd/10; else alpha = 1;
 
 draw_set_font(font);
 draw_set_color(c_gray);
-draw_rectangle(x,y,x+boxwidth,y+boxheight,0);
+text_rect = draw_rectangle(x,y,x+boxwidth,y+boxheight,0);
+draw_set_alpha(1);
 draw_set_color(c_black);
-draw_rectangle(x,y,x+boxwidth,y+boxheight,1);
+//optional border
+//draw_rectangle(x,y,x+boxwidth,y+boxheight,1);
 
 draw_set_color(c_white);
 draw_set_halign(fa_left);
@@ -99,7 +101,7 @@ draw_text_ext
     maxlength
 );
 
-draw_set_alpha(1);
+
 </string>
           </argument>
         </arguments>
