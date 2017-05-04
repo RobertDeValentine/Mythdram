@@ -26,17 +26,19 @@
           <argument>
             <kind>1</kind>
             <string>///Initialize Variables
-grav = 0.2;
+grav = 0.15;
 hsp = 0;
 hsp_carry = 0;
 vsp = 0;
-movespeed = 4;
+movespeed = 3;
 jumps = 0;
+is_sprinting = 0;
+dir = 1;
+wep_out = 0;
 
-jumpsmax = 2;
+jumpsmax = 1;
 
 jumpspeed_normal = 5.5;
-jumpspeed_powerup = 10;
 
 jumpspeed = jumpspeed_normal
 
@@ -71,17 +73,23 @@ key_down = 0;
           <argument>
             <kind>1</kind>
             <string>//Get the player's input
-key_right = keyboard_check(vk_right);
-key_left = -keyboard_check(vk_left);
+key_right = keyboard_check(ord('D'));
+key_left = -keyboard_check(ord('A'));
+key_sprint = keyboard_check_pressed(ord('W'));
+key_sprint_released = keyboard_check_released(ord('W'));
 key_jump = keyboard_check_pressed(vk_space);
 key_jump_held = keyboard_check(vk_space);
-key_down = keyboard_check(vk_down);
+key_down = keyboard_check(ord('S'));
 
 
 //React to inputs
 move = key_left + key_right;
 hsp = move * movespeed;
 if (vsp &lt; 10) vsp += grav;
+if (key_sprint) movespeed += 1.5;
+if (key_sprint_released) movespeed -= 1.5;
+if (move!=0) dir = move;
+
 
 //Jumps
 if (place_meeting(x,y+1,obj_wall))
@@ -142,6 +150,92 @@ if (place_meeting(x,y+1,obj_wall))
 else
 {
     if (vsp &lt; 0) sprite_index = spr_player_jump; else sprite_index = spr_player_fall;
+}
+</string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
+    <event eventtype="7" enumb="0">
+      <action>
+        <libid>1</libid>
+        <id>223</id>
+        <kind>0</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>0</useapplyto>
+        <exetype>1</exetype>
+        <functionname>action_current_room</functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+      </action>
+    </event>
+    <event eventtype="9" enumb="81">
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>///launch the sickle
+if ( wep_out == 0 )
+{
+    sickle = instance_create(x,y,obj_sickle);
+    wep_out = 1;
+    
+    if ( dir != 0 )
+    {
+        sickle.speed = 8*dir;
+        sickle.image_xscale = dir;
+    }
+    
+}
+</string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
+    <event eventtype="9" enumb="69">
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>///launch the hammer
+if ( wep_out == 0 )
+{
+    hammer = instance_create(x,y,obj_hammer);
+    wep_out = 1;
+    
+    if ( dir != 0 )
+    {
+        hammer.speed = 8*dir;
+        hammer.image_xscale = dir;
+    }
+    
 }
 </string>
           </argument>
