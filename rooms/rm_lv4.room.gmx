@@ -343,8 +343,7 @@
     <instance objName="obj_wall" x="3008" y="736" name="inst_061FC1FD" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_wall" x="608" y="416" name="inst_7E973311" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_wall" x="576" y="416" name="inst_A37F10DC" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_terminal" x="578" y="368" name="inst_7BFE9452" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_checkpoint" x="576" y="384" name="inst_EA6EB74B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_terminal" x="578" y="368" name="inst_7BFE9452" locked="0" code="text = &quot;props&quot;;&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_wall" x="544" y="416" name="inst_4402A4EE" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_platform" x="800" y="448" name="inst_4F1F3CA3" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_platform" x="768" y="448" name="inst_9AD07760" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
@@ -365,8 +364,7 @@
     <instance objName="obj_wall" x="1472" y="192" name="inst_53374287" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_wall" x="1504" y="192" name="inst_DB0201CA" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_wall" x="1536" y="192" name="inst_039ECBB0" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_terminal" x="1505" y="142" name="inst_DAD07AD7" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_checkpoint" x="1504" y="128" name="inst_53503486" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_terminal" x="1505" y="142" name="inst_DAD07AD7" locked="0" code="text = &quot;cuz&quot;;&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_platform" x="1696" y="256" name="inst_C7A9DEFB" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_platform" x="1696" y="256" name="inst_3E15F97C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_platform" x="1728" y="256" name="inst_8F7D30CA" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
@@ -382,8 +380,7 @@
     <instance objName="obj_wall" x="2208" y="640" name="inst_EFBA5660" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_wall" x="2240" y="640" name="inst_1BB5B888" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_wall" x="2272" y="640" name="inst_9AFBACA0" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_terminal" x="2209" y="719" name="inst_2D126E07" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_checkpoint" x="2208" y="704" name="inst_E5136D89" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_terminal" x="2209" y="719" name="inst_2D126E07" locked="0" code="text = &quot;uwot &quot;;&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_enemy" x="2272" y="736" name="inst_5FD53569" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_platform" x="1440" y="320" name="inst_68A2D2C9" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_platform" x="1472" y="320" name="inst_84B7FEFC" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
