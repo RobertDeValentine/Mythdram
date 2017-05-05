@@ -24,6 +24,8 @@
     <sprite>sprites\spr_sickle</sprite>
     <sprite>sprites\spr_spike</sprite>
     <sprite>sprites\spr_terminal</sprite>
+    <sprite>sprites\spr_enemy_spider</sprite>
+    <sprite>sprites\spr_enemy_bird</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\background0</background>
@@ -42,6 +44,8 @@
     <object>objects\obj_portal</object>
     <object>objects\obj_checkpoint</object>
     <object>objects\obj_enemy</object>
+    <object>objects\obj_enemy_spider</object>
+    <object>objects\obj_enemy_flying</object>
     <object>objects\obj_player</object>
     <object>objects\obj_wall</object>
     <object>objects\obj_hammer</object>
