@@ -33,7 +33,7 @@ grav = 0.2;
 hsp = 0;
 vsp = 0;
 hp = 100
-fearofheights = 1;
+fearofheights = 0;
 </string>
           </argument>
         </arguments>
@@ -84,7 +84,7 @@ fearofheights = 1;
             <kind>1</kind>
             <string>/// stuff
 vsp = dir * movespeed;
-hsp += grav;
+//hsp += grav;
 
 //No Health
 if (health &lt;= 0)
@@ -93,7 +93,7 @@ if (health &lt;= 0)
 }
 
 //Horizontal Collision
-if (place_meeting(x+hsp,y,obj_wall))
+/*if (place_meeting(x+hsp,y,obj_wall))
 {
     while(!place_meeting(x+sign(hsp),y,obj_wall))
     {
@@ -103,7 +103,7 @@ if (place_meeting(x+hsp,y,obj_wall))
     
     dir *= -1;
 }
-x += hsp;
+x += hsp;*/
 
 //Vertical Collision
 if (place_meeting(x,y+vsp,obj_wall))
@@ -113,6 +113,7 @@ if (place_meeting(x,y+vsp,obj_wall))
         y += sign(vsp);
     }
     vsp = 0;
+    dir *= -1;
     if (fearofheights) &amp;&amp; ( !position_meeting(x+(sprite_width/2)*dir, y+(sprite_height/2)+8, obj_wall) || (!position_meeting(x-(sprite_width/2)*dir, y+(sprite_height/2)+8, obj_wall)) )
     {
         dir *= -1;
