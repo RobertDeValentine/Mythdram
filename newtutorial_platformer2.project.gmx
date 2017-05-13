@@ -25,6 +25,7 @@
     <sprite>sprites\spr_spike</sprite>
     <sprite>sprites\spr_terminal</sprite>
     <sprite>sprites\spr_enemy_spider</sprite>
+    <sprite>sprites\spr_enemy_spider_vert</sprite>
     <sprite>sprites\spr_enemy_bird</sprite>
   </sprites>
   <backgrounds name="background">
@@ -45,6 +46,7 @@
     <object>objects\obj_checkpoint</object>
     <object>objects\obj_enemy</object>
     <object>objects\obj_enemy_spider</object>
+    <object>objects\obj_enemy_spider_vert</object>
     <object>objects\obj_enemy_flying</object>
     <object>objects\obj_player</object>
     <object>objects\obj_wall</object>
