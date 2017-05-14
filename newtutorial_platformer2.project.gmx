@@ -24,9 +24,13 @@
     <sprite>sprites\spr_sickle</sprite>
     <sprite>sprites\spr_spike</sprite>
     <sprite>sprites\spr_terminal</sprite>
+    <sprite>sprites\spr_enemy_spider</sprite>
+    <sprite>sprites\spr_enemy_spider_vert</sprite>
+    <sprite>sprites\spr_enemy_bird</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\background0</background>
+    <background>background\bg_1</background>
   </backgrounds>
   <paths name="paths"/>
   <scripts name="scripts">
@@ -42,6 +46,9 @@
     <object>objects\obj_portal</object>
     <object>objects\obj_checkpoint</object>
     <object>objects\obj_enemy</object>
+    <object>objects\obj_enemy_spider</object>
+    <object>objects\obj_enemy_spider_vert</object>
+    <object>objects\obj_enemy_flying</object>
     <object>objects\obj_player</object>
     <object>objects\obj_wall</object>
     <object>objects\obj_hammer</object>
@@ -52,17 +59,14 @@
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_initialize</room>
+    <room>rooms\rm_lv1</room>
+    <room>rooms\rm_lv2</room>
+    <room>rooms\rm_lv3</room>
+    <room>rooms\rm_lv4</room>
+    <room>rooms\rm_test</room>
     <room>rooms\rm_1</room>
     <room>rooms\rm_2</room>
-    <room>rooms\rm_lv2</room>
-    <room>rooms\rm_lv4</room>
-    <room>rooms\rm_lv3</room>
-    <room>rooms\rm_test</room>
   </rooms>
-  <constants number="2">
-    <constant name="GM_build_date">41940.8313177546</constant>
-    <constant name="GM_version">'100'</constant>
-  </constants>
   <help>
     <rtf>help.rtf</rtf>
   </help>
