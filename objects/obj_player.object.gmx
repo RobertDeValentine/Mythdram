@@ -38,7 +38,7 @@ wep_out = 0;
 
 jumpsmax = 1;
 
-jumpspeed_normal = 6.5;
+jumpspeed_normal = 5;
 
 jumpspeed = jumpspeed_normal
 

@@ -27,6 +27,8 @@
     <sprite>sprites\spr_enemy_spider</sprite>
     <sprite>sprites\spr_enemy_spider_vert</sprite>
     <sprite>sprites\spr_enemy_bird</sprite>
+    <sprite>sprites\spr_boss1</sprite>
+    <sprite>sprites\spr_boss_mask</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\background0</background>
@@ -36,6 +38,8 @@
   <scripts name="scripts">
     <script>scripts\scr_death.gml</script>
     <script>scripts\scr_text.gml</script>
+    <script>scripts\scr_boss_open_mouth.gml</script>
+    <script>scripts\scr_boss_close_mouth.gml</script>
   </scripts>
   <fonts name="fonts">
     <font>fonts\fnt</font>
@@ -56,14 +60,15 @@
     <object>objects\obj_spike</object>
     <object>objects\obj_terminal</object>
     <object>objects\obj_text</object>
+    <object>objects\obj_boss1</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_initialize</room>
+    <room>rooms\rm_test</room>
     <room>rooms\rm_lv1</room>
     <room>rooms\rm_lv2</room>
     <room>rooms\rm_lv3</room>
     <room>rooms\rm_lv4</room>
-    <room>rooms\rm_test</room>
     <room>rooms\rm_1</room>
     <room>rooms\rm_2</room>
   </rooms>

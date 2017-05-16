@@ -10,10 +10,10 @@
   <persistent>0</persistent>
   <colour>12632256</colour>
   <showcolour>-1</showcolour>
-  <code>global.checkpoint = id;
+  <code>//global.checkpoint = id;
 global.checkpointx = 32;
 global.checkpointy = 672;
-global.checkpointR = room;</code>
+global.checkpointR = 0;</code>
   <enableViews>-1</enableViews>
   <clearViewBackground>-1</clearViewBackground>
   <clearDisplayBuffer>-1</clearDisplayBuffer>
